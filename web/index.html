@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Market Trade Processor</h1>
+        <table>
+            <tr>
+                <td>
+                    <form name="inputForm">
+                        <table>
+                            <tr>
+                                <th>UserID</th>
+                                <td><textarea id="jsondata" rows="4" cols="50"></textarea></td>
+                            
+                            <tr>
+                                <th> </th>
+                                <td><input type="submit" value="Send JSON" onclick="defineJSON();"></td>
+                                                             
+                            </tr>
+
+                        </table>
+
+
+                    </form>
+                </td>
+            </tr>
+        </table>
+        
+<img id="graph" src="http://localhost:8080/MarketTradeProcessor/JFreeChartServlet">
+        <script type="text/javascript" src="websocket.js"></script>
+        <script type="text/javascript" src="tradesender.js"></script>
+    </body>
+</html>
