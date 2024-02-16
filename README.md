@@ -1,5 +1,5 @@
 # MarketTradeProcessor
-CurrencyFair Programming Test
+Programming Test
 
 A simple Java web application which uses a websocket endpoint to allow JSON(trade) messages be sent to it. 
 
